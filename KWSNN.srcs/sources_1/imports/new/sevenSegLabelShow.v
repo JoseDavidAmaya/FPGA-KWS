@@ -47,6 +47,8 @@ module sevenSegLabelShow(
         .valend(clk_div)
     );
     
+    `include "NNparams.vh"
+    
     // letter counter, swaps the segment based on clk_div
     wire [2:0]letterIdx;
     counter #(3) letter_counter(
@@ -121,8 +123,8 @@ module sevenSegLabelShow(
     
     // Load encoder and labels memories
     initial begin
-        $readmemh("C:/Users/jdah1/Desktop/ASR/mem/memlabels.mem", memlabels_reg);
-        $readmemh("C:/Users/jdah1/Desktop/ASR/mem/memencoder.mem", memencoder);
+        $readmemh(mem7segLabels, memlabels_reg);
+        $readmemh(mem7segEncoder, memencoder);
     end
     
 endmodule
