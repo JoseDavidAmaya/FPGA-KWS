@@ -1,0 +1,14 @@
+venv/
+__pycache__
+
+mem/*
+!mem/memencoder.mem
+!mem/memlabels.mem
+verilogHeaders/NNparams.vh
+
+models/
+temp/
+
+flagged/
+
+
