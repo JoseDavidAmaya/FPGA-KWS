@@ -10,8 +10,8 @@ localparam memParamsInitFile = "{MEM_PARAMS_INIT_FILE}";
 localparam memInputInitFileSim = "{MEM_INPUT_INIT_FILE_SIM}";
 localparam memOutputInitFileSim = "{MEM_OUTPUT_INIT_FILE_SIM}";
 
-localparam mem7segLabels = "{MEM_7SEG_LABELS}"
-localparam mem7segEncoder = "{MEM_7SEG_ENCODER}"
+localparam mem7segLabels = "{MEM_7SEG_LABELS}";
+localparam mem7segEncoder = "{MEM_7SEG_ENCODER}";
 
 
 localparam gru_out_size = {GRU_OUT_SIZE}; // Size of the output of the GRU layer [Also the size (or a factor of the size) of the output of its operations] (in memory)
