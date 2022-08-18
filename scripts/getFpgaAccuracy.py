@@ -2,8 +2,6 @@
 """
 
 import os
-import sys
-sys.path.append(os.getcwd())
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1" # To disable GPU Usage
 os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true" # To avoid filling the whole memmory
 
@@ -18,7 +16,7 @@ from modules.quant import qInteger
 from modules.utils import pad
 from modules import fpgaInference as fpga
 
-datasetConfig = model.GRU_L_datasetConfig
+datasetConfig = model.GRU_SC_datasetConfig
 integerBits = 3 # Value of m in Qm.n, found with the script findQmn.py
 memwidth = 64 # Should be a power of 2 and a multiple of 8
 
