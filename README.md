@@ -8,7 +8,7 @@ Input data of the network is sent to the FPGA using the [FTDI C232HM-DDHSL-0](ht
 
 The demo is built with [gradio](https://gradio.app/)
 
-[bitstream](./bitstream/) files are available for a large and a small model. The [large model](./bitstream/NN_Controller_L_PQT.bit) achieves 94.78% accuracy on the test set of Google's speech commands dataset with an inference time of ~37ms, while the [small model](./bitstream/NN_Controller_SC.bit) achieves 92.35% with an inference time of ~5ms
+[bitstream](./bitstream/) files are available for a large and a small model. The [large model](./bitstream/NN_Controller_L_PQT.bit) achieves 94.78% accuracy on the test set of Google's speech commands dataset with an inference time of ~37ms, while the [small model](./bitstream/NN_Controller_SC_PQT.bit) achieves 92.35% with an inference time of ~5ms
 
 # Requirements
 
