@@ -15,6 +15,8 @@ The demo is built with [gradio](https://gradio.app/)
 ## Software
 
 - [Python 3](https://www.python.org/)
+- [ffmpeg](https://ffmpeg.org/)
+	- On Windows, executables directory should be added to PATH
 - [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado.html) (Not needed to only run the demo)
 - [FTDI Cable D2XX drivers](https://ftdichip.com/drivers/d2xx-drivers/)
     - On Windows [extra steps are required](https://eblot.github.io/pyftdi/installation.html#windows)
